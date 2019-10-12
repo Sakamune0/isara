@@ -4,6 +4,14 @@
 /* ヘッダー */
 /* --------------------------------------------- */
   .header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background: #fff;
+  }
+
+  .header__inner {
     display: flex;
     height: 7.5rem;
     font-size: 1.4px;
@@ -13,12 +21,12 @@
   .header__left {
     display: flex;
     align-items: flex-end;
-    margin: 1rem;
+    padding: 0 0 1.5rem 1.5rem;
     font-size: 1.4px;
   }
 
   .header__logo {
-    width: 13rem;
+    width: 12rem;
   }
 
   .header__logo img {
@@ -39,14 +47,14 @@
     margin-right: 3rem;
   }
 
-  .form-Pc {
+  .headerform {
     display: block;
   }
 
-  .form-Pc a{
+  .header__form a{
     padding: 1.5rem 4rem 1.5rem 4rem;
     background-color: #cd7168;
-    color: antiquewhite;
+    color: #fff;
     font-size: 1.2rem;
     border-radius: 2.5rem;
   }
@@ -65,23 +73,73 @@
     width: 40rem;
   }
 
+  .MainImage__logo {
+    width: 35rem;
+    margin: 0 auto;
+  }
+
   .MainImage__text p {
     font-size: 2.4rem;
     line-height: 2;
   }
+
+  .MainImage__text h1 {
+    font-size: 1.5rem;
+  }
   
+/* application */
+/* --------------------------------------------- */
+.application__container {
+  height: 40rem;
 }
 
+.application__container--inner {
+  width: 80%;
+}
+
+.application__container--text {
+  margin: 1rem 0 1rem 0;
+}
+
+.application__form {
+  height: 7.5rem;
+}
+
+.application__form br {
+  display: none;
+}
+
+.application__container--text {
+  font-size: 1.6rem;
+}
+
+.application__attention {
+  margin-bottom: 0;
+}
+
+.application__container--offering {
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+
+.application__container--offering br {
+  display: none;
+}
+
+}
+
+
+/* ================================================ */
 /* PCフルサイズ画面 */
-@media screen and (min-width:1024px){
+@media screen and (min-width:1200px){
   body {
     font-size: 2.0rem;
   }
 
 /* ヘッダー */
 /* --------------------------------------------- */
-  .header {
-    max-width: 1024px;
+  .header__inner {
+    max-width: 1200px;
     margin: 0 auto;
   }
 
@@ -98,6 +156,38 @@
 
   .MainImage__text h1 {
     font-size: 2rem;
+  }
+
+  /* application */
+/* --------------------------------------------- */
+ .application__container {
+  height: 54rem;
+  }
+
+  .application__container--inner {
+    width: 960px; 
+    /* (1200px * 80% = 960px) */
+  }
+
+  .application__container--text {
+    font-size: 2rem;
+  }
+  
+  .application__attention {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+  }
+
+  .application__form {
+    height: 10rem;
+    font-size: 2.6rem;
+    margin-bottom: 7rem;
+  }
+  
+  .application__container--offering {
+    font-size: 2.1rem;
+    line-height: 2;
+    letter-spacing: 3px;
   }
 
 }
