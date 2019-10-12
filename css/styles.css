@@ -1,0 +1,71 @@
+/* 共通 */
+/* --------------------------------------------- */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5em;
+}
+
+/* モバイルファーストで記述 */
+@media screen and (max-width:768px){
+
+/* ヘッダー */
+/* --------------------------------------------- */
+.header {
+  display: flex;
+  font-size: 1rem;
+  height: 6rem;
+}
+
+.header__left {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 1rem;
+}
+
+.header__logo {
+  width: 9rem;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__text {
+  margin-bottom: 0.5rem;
+}
+
+.header__right {
+  margin-left: auto;
+}
+
+.form-Sp {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  padding: 1rem;
+  background-color: #cd7168;
+}
+
+.form-Sp img {
+  padding: 0 2rem 0.3rem 2rem;
+  height: 3rem;
+} 
+
+.form-Sp a {
+  color: aliceblue;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.form-Pc {
+  display: none;
+}
+
+/* MainImage */
+/* --------------------------------------------- */
+
+
+}
