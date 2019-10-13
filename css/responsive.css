@@ -126,7 +126,36 @@
   display: none;
 }
 
+/* introduction */
+/* --------------------------------------------- */
+.introduction__inner {
+  margin: 0 auto;
+  max-width: 900px;
 }
+
+.introduction__theme {
+  margin: 3rem 0 3rem 0;
+}
+
+.parenthesis__title {
+  white-space: nowrap;
+  font-size: 2.4rem;
+}
+
+.introduction__text {
+  font-size: 1.6rem;
+}
+
+.sp__br {
+  display: none;
+}
+
+.sp__lfBlock {
+  margin-bottom: 0;
+}
+
+}
+
 
 
 /* ================================================ */
@@ -188,6 +217,17 @@
     font-size: 2.1rem;
     line-height: 2;
     letter-spacing: 3px;
+  }
+
+/* introduction */
+/* --------------------------------------------- */
+  .parenthesis__title {
+    white-space: nowrap;
+    font-size: 2.8rem;
+  }
+  
+  .introduction__text {
+    font-size: 2rem;
   }
 
 }

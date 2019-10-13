@@ -83,7 +83,7 @@ body {
   flex-direction: column;
   width: 8rem;
   padding: 1rem;
-  background-color: #d4685f;
+  background-color: rgb(203 ,113 ,105);
 }
 
 .form-Sp img {
@@ -95,6 +95,11 @@ body {
   color: aliceblue;
   text-align: center;
   font-weight: lighter;
+  cursor: pointer;
+}
+
+.form-Sp a:hover {
+  text-decoration: underline;
 }
 
 .header__form {
@@ -191,17 +196,22 @@ body {
   width: 100%;
   height: 9rem;
   margin-bottom: 3rem;
-  background-color: #d4685f;
+  background-color: rgb(203 ,113 ,105);
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
   border-radius: 4rem;
+  cursor: pointer;
 }
 
 .application__form a {
   display: table-cell;
   vertical-align:middle;
   color: #fff;
+}
+
+.application__form:hover {
+  background-color: rgb(197, 57, 45);
 }
 
 .application__container--text {
@@ -216,4 +226,93 @@ body {
 
 .application__container--6th {
   margin-bottom: 3rem;
+}
+
+/* introduction */
+/* --------------------------------------------- */
+.introduction {
+  width: 100%;
+  background-image: url(../img/background/introbottom.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: -2;
+}
+
+.introduction__inner {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.introduction__theme {
+  display: table;
+  width: 100%;
+  justify-content: space-between;
+  height: 12rem;
+  margin: 3rem 0 3rem 0;
+  position: relative;
+}
+
+.parenthesis__title {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.parenthesis__left {
+  width: 5rem;
+  height: 5rem;
+  border-top: 3px solid rgb(231, 180, 71);
+  border-left: 3px solid rgb(231, 180, 71);
+}
+
+.parenthesis__right {
+  width: 5rem;
+  height: 5rem;
+  border-bottom: 3px solid rgb(231, 180, 71);
+  border-right: 3px solid rgb(231, 180, 71);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.introduction__text {
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 10rem;
+}
+
+.text__lfBlock {
+  margin-bottom: 3rem;
+}
+
+.sp__lfBlock{
+  margin-bottom: 3rem;
+}
+
+.text__strong {
+ position: relative; 
+ font-weight: bold;
+}
+
+.text__strong::after {
+  position: absolute;
+  content: '';
+  width: 80%;
+  bottom: 0rem;
+  left: 0.8rem;
+  height: 0.5rem;
+  background: rgb(231, 180, 71);
+  z-index: -1;
 }
