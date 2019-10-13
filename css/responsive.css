@@ -1,5 +1,39 @@
 /* タブレット〜通常PC画面 */
 @media screen and (min-width:768px){
+/* 共通 */
+/* --------------------------------------------- */
+  .sp__br {
+    display: none;
+  }
+  
+  .sp__lfBlock {
+    margin-bottom: 0;
+  }
+
+  .section__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section__theme {
+    max-width: 900px;
+    margin: 3rem 0 3rem 0;
+  }
+
+  .section__title {
+    white-space: nowrap;
+    font-size: 2.4rem;
+  }
+
+  .section__left {
+    width: 5rem;
+    height: 5rem;
+  }
+    
+  .section__right {
+    width: 5rem;
+    height: 5rem;
+  }
 
 /* ヘッダー */
 /* --------------------------------------------- */
@@ -89,70 +123,76 @@
   
 /* application */
 /* --------------------------------------------- */
-.application__container {
-  height: 40rem;
-}
+  .application__container {
+    height: 40rem;
+  }
 
-.application__container--inner {
-  width: 80%;
-}
+  .application__container--inner {
+    width: 80%;
+  }
 
-.application__container--text {
-  margin: 1rem 0 1rem 0;
-}
+  .application__container--text {
+    margin: 1rem 0 1rem 0;
+  }
 
-.application__form {
-  height: 7.5rem;
-}
+  .application__form {
+    height: 7.5rem;
+  }
 
-.application__form br {
-  display: none;
-}
+  .application__form br {
+    display: none;
+  }
 
-.application__container--text {
-  font-size: 1.6rem;
-}
+  .application__container--text {
+    font-size: 1.6rem;
+  }
 
-.application__attention {
-  margin-bottom: 0;
-}
+  .application__attention {
+    margin-bottom: 0;
+  }
 
-.application__container--offering {
-  font-size: 1.8rem;
-  line-height: 1.3;
-}
+  .application__container--offering {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
 
-.application__container--offering br {
-  display: none;
-}
+  .application__container--offering br {
+    display: none;
+  }
 
-/* introduction */
-/* --------------------------------------------- */
-.introduction__inner {
-  margin: 0 auto;
-  max-width: 900px;
-}
+  /* introduction */
+  /* --------------------------------------------- */
+  .introduction__text {
+    font-size: 1.6rem;
+  }
 
-.introduction__theme {
-  margin: 3rem 0 3rem 0;
-}
+  /* introduction */
+  /* --------------------------------------------- */
+  .about__theme {
+    font-size: 1.8rem;
+  }
 
-.parenthesis__title {
-  white-space: nowrap;
-  font-size: 2.4rem;
-}
+  .skill__text {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
 
-.introduction__text {
-  font-size: 1.6rem;
-}
+  .skill__menu__text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
 
-.sp__br {
-  display: none;
-}
-
-.sp__lfBlock {
-  margin-bottom: 0;
-}
+  .skill__menu {
+    width: 14rem;
+    height: 10rem;
+    display: inline-block;
+  }
+  
+  .skill__menu__logo {
+    width: 14rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+  }
 
 }
 
@@ -221,13 +261,28 @@
 
 /* introduction */
 /* --------------------------------------------- */
-  .parenthesis__title {
+  .section__title {
     white-space: nowrap;
     font-size: 2.8rem;
   }
   
   .introduction__text {
     font-size: 2rem;
+  }
+
+  /* introduction */
+  /* --------------------------------------------- */
+  .about__skill--inner {
+    max-width: 1200px;
+  }
+
+  .about__theme {
+    font-size: 2rem;
+  }
+
+  .skill__text {
+    font-size: 2rem;
+    margin-top: 2rem;
   }
 
 }
