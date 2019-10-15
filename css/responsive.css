@@ -236,6 +236,38 @@
   font-size: 1.6rem;
 }
 
+/* learnable */
+/* --------------------------------------------- */
+.learnable {
+  padding: 7rem 0 6rem 0;
+}
+
+.learnable__theme {
+  font-size: 2.4rem;
+}
+
+.learnable--small {
+  font-size: 1.4rem;
+}
+
+.learnable__text {
+  font-size: 1.6rem;
+}
+
+.learnable__text--small {
+  font-size: 1.4rem;
+}
+
+.learnable__icon__container {
+  margin: 5rem auto;
+  max-width: 900px;
+}
+
+.learnable__icon {
+  width: 20%;
+  max-width: 18rem;
+}
+
 }
 
 
@@ -359,11 +391,33 @@ height: 54rem;
   font-size: 1.6rem;
 }
 
+/* insert */
 /* --------------------------------------------- */
 .insert__inner {
 margin: 4rem;
 font-size: 2rem;
 }
 
+/* learnable */
+/* --------------------------------------------- */
+.learnable {
+  padding: 7rem 0 6rem 0;
+}
+
+.learnable__theme {
+  font-size: 2.8rem;
+}
+
+.learnable--small {
+  font-size: 1.6rem;
+}
+
+.learnable__text {
+  font-size: 2rem;
+}
+
+.learnable__text--small {
+  font-size: 1.6rem;
+}
 }
 

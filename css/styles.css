@@ -457,11 +457,53 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .insert__inner {
+  text-align: center;
   margin: 2rem;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+/* learnable */
+/* --------------------------------------------- */
+.learnable {
+  padding: 5rem 0 3rem 0;
+}
+
+.learnable__container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.learnable__theme {
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+}
+
+.learnable--small {
+  font-size: 1.2rem;
+}
+
+.learnable__text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+}
+
+.learnable__text--small {
+  font-size: 1.2rem;
+}
+
+.learnable__icon__container {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.learnable__icon {
+  width: 20%;
+  margin: 0 0.3rem 0 0.3rem;
 }
