@@ -6,7 +6,7 @@ html {
 
 body {
   font-size: 1.5em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Osaka;
 }
 
 .sns {
@@ -386,8 +386,65 @@ body {
   font-size: 1rem;
 }
 
-/* about */
+/* step */
 /* --------------------------------------------- */
 .step {
-  
+  background-image: url(../img/background/step.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.step__theme {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  color: #fff;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.step__text {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.step__text1 {
+  margin-bottom: 1rem;
+}
+
+.step__text2 {
+  margin-bottom: 2rem;
+}
+
+.step__text--yellow {
+  color: #E3BB60;
+}
+
+.step__menu {
+  margin: 0 auto;
+  width: 90%;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.step__menu__number {
+  margin: 0 auto;
+  width: 90%;
+  padding: 0.3rem 0 0.3rem 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  background-color: #E3BB60;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.step__menu__text {
+  font-size: 1.2rem;
+  line-height: 2;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
