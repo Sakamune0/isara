@@ -229,6 +229,13 @@
   font-size: 1.4rem;
 }
 
+/* insert */
+/* --------------------------------------------- */
+.insert__inner {
+  margin: 4rem;
+  font-size: 1.6rem;
+}
+
 }
 
 
@@ -236,122 +243,127 @@
 /* ================================================ */
 /* PCフルサイズ画面 */
 @media screen and (min-width:1200px){
-  body {
-    font-size: 2.0rem;
-  }
+body {
+  font-size: 2.0rem;
+}
 
 /* ヘッダー */
 /* --------------------------------------------- */
-  .header__inner {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 /* MainImage */
 /* --------------------------------------------- */
-  .MainImage__container {
-    width: 40rem;
-  }
+.MainImage__container {
+  width: 40rem;
+}
 
-  .MainImage__text p {
-    font-size: 2.8rem;
-    line-height: 2.2;
-  }
+.MainImage__text p {
+  font-size: 2.8rem;
+  line-height: 2.2;
+}
 
-  .MainImage__text h1 {
-    font-size: 2rem;
-  }
+.MainImage__text h1 {
+  font-size: 2rem;
+}
 
-  /* application */
+/* application */
 /* --------------------------------------------- */
- .application__container {
-  height: 54rem;
-  }
+.application__container {
+height: 54rem;
+}
 
-  .application__container--inner {
-    width: 960px; 
-    /* (1200px * 80% = 960px) */
-  }
+.application__container--inner {
+  width: 960px; 
+  /* (1200px * 80% = 960px) */
+}
 
-  .application__container--text {
-    font-size: 2rem;
-  }
-  
-  .application__attention {
-    font-size: 1.8rem;
-    margin-bottom: 4rem;
-  }
+.application__container--text {
+  font-size: 2rem;
+}
 
-  .application__form {
-    height: 10rem;
-    font-size: 2.6rem;
-    margin-bottom: 7rem;
-  }
-  
-  .application__container--offering {
-    font-size: 2.1rem;
-    line-height: 2;
-    letter-spacing: 3px;
-  }
+.application__attention {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.application__form {
+  height: 10rem;
+  font-size: 2.6rem;
+  margin-bottom: 7rem;
+}
+
+.application__container--offering {
+  font-size: 2.1rem;
+  line-height: 2;
+  letter-spacing: 3px;
+}
 
 /* introduction */
 /* --------------------------------------------- */
-  .section__title {
-    white-space: nowrap;
-    font-size: 2.8rem;
-  }
-  
-  .introduction__text {
-    font-size: 2rem;
-  }
+.section__title {
+  white-space: nowrap;
+  font-size: 2.8rem;
+}
 
-  .about__skill--inner {
-    max-width: 1200px;
-  }
+.introduction__text {
+  font-size: 2rem;
+}
 
-  .about__theme {
-    font-size: 2rem;
-  }
+.about__skill--inner {
+  max-width: 1200px;
+}
 
-  .skill__text {
-    font-size: 2rem;
-    margin-top: 2rem;
-  }
+.about__theme {
+  font-size: 2rem;
+}
 
-  /* step */
-  /* --------------------------------------------- */
-  .step__theme {
-    font-size: 2.8rem;
-  }
+.skill__text {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
 
-  .step__text {
-    font-size: 2rem;
-    margin-bottom: 3rem;
-  }
+/* step */
+/* --------------------------------------------- */
+.step__theme {
+  font-size: 2.8rem;
+}
 
-  .step__container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-  }
+.step__text {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
 
-  .step__menu {
-    width: 37rem;
-  }
+.step__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 
-  .step__menu__number {
-    font-size: 1.6rem;
-  }
+.step__menu {
+  width: 37rem;
+}
 
-  .step__menu__title {
-    font-size: 1.4rem;
-  }
+.step__menu__number {
+  font-size: 1.6rem;
+}
 
-  .step__menu__text {
-    font-size: 1.6rem;
-  }
+.step__menu__title {
+  font-size: 1.4rem;
+}
 
+.step__menu__text {
+  font-size: 1.6rem;
+}
+
+/* --------------------------------------------- */
+.insert__inner {
+margin: 4rem;
+font-size: 2rem;
+}
 
 }
 

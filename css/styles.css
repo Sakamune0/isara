@@ -448,3 +448,20 @@ body {
   font-weight: 600;
   letter-spacing: 2px;
 }
+
+/* insert */
+/* --------------------------------------------- */
+.insert {
+  background-color: #2E6CA4;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.insert__inner {
+  margin: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
