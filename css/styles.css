@@ -827,3 +827,75 @@ position: relative;
   font-size: 1.6rem;
   text-decoration: underline;
 }
+
+/* content */
+/* --------------------------------------------- */
+.content {
+  background-image: url(../img/background/content.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content__text {
+  text-align: center;
+  padding-top: 4.5rem;
+  color: #fff;
+}
+
+.content__text--lg {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+}
+
+.content__text--md {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  letter-spacing: 1.5px;
+}
+
+.content__about {
+  width: 98%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.content__box--befor {
+  margin-bottom: 1.5rem;
+  border: 3px solid #2E6CA4;
+  border-radius: 5px;
+}
+
+.content__box--intermediate {
+  border: 3px solid #2E6CA4;
+  border-radius: 5px;
+}
+
+.content__box--header {
+  background-color: #2E6CA4;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.content__box--inner {
+  background-color: #fff;
+  border-bottom: 1px dashed #e5e5e5;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.content__about li:nth-child(2) {
+  padding-top: 1rem;
+  height: 5rem;
+}
+
+.content__box--inner:last-child {
+  border-bottom: none;
+}
