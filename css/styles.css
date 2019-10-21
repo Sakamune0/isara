@@ -811,7 +811,6 @@ position: relative;
 
 .QA__answer__text {
   width: calc(100% - 21rem);
-  font-family: ;
   color: #777777;
   font-style: italic;
   letter-spacing: 2px;
