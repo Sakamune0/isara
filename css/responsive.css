@@ -469,6 +469,92 @@
   padding-bottom: 7rem;
 }
 
+/* insert__2nd */
+/* --------------------------------------------- */
+.insert__inner__2nd {
+  font-size: 1.8rem;
+}
+
+/* flow */
+/* --------------------------------------------- */
+.flow__theme__text {
+  font-size: 2.4rem;
+  margin-bottom: 6rem;
+}
+
+.pc__img {
+  width: 100%;
+}
+
+.flow__ac:after {
+  display: none;
+}
+
+.flow__ac__inner {
+  display: block;
+}
+
+.flow__accordion {
+  width: 85%;
+  pointer-events: none;
+}
+
+.flow__accordion__container {
+  display: flex;
+  padding: 2rem 2rem 2rem 3rem;
+  margin-bottom: 0;
+}
+
+.flow__accordion__container:last-child {
+  margin-bottom: -3rem;
+}
+
+.flow__ac {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flow__ac__img {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 3rem;
+}
+
+.flow__ac__menu {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.flow__ac__inner {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.flow__ac__inner--600 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.flow__ac__inner--300 {
+  font-size: 1.2rem;
+  line-height: 2;
+  letter-spacing: 1.5px;
+}
+
+.flow__line {
+  width: 80%;
+ margin: 0 auto;
+}
+
+.flow__line img {
+  width: 100%
+}
+
 }
 
 
@@ -780,5 +866,26 @@ font-size: 1.8rem;
   height: 30.5rem;
 }
 
+/* flow */
+/* --------------------------------------------- */
+.pc__img {
+  max-width: 1100px;
+}
+
+.flow__theme__text {
+  font-size: 2.8rem;
+}
+
+.flow__accordion {
+  max-width: 1200px;
+}
+
+.flow__ac__inner--600 {
+  font-size: 1.8rem;
+}
+
+.flow__ac__inner--300 {
+  font-size: 1.4rem;
+}
 }
 
