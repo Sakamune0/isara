@@ -118,6 +118,9 @@ body {
   display: none;
 }
 
+.flow__line {
+  display: none;
+}
 /* ヘッダー */
 /* --------------------------------------------- */
 .header {
