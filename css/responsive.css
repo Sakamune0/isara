@@ -20,6 +20,12 @@
     font-size: 2.4rem;
   }
 
+  .section__text {
+    white-space: nowrap;
+    font-size: 2rem;
+    line-height: 2;
+  }
+
   .section__left {
     width: 5rem;
     height: 5rem;
@@ -55,24 +61,22 @@
   .header__left {
     display: flex;
     align-items: flex-end;
-    padding: 0 0 1.5rem 1.5rem;
-    font-size: 1.4px;
+    padding: 0 1rem 1.7rem;
+    font-size: 1.2rem;
   }
 
   .header__logo {
-    width: 12rem;
+    height: 4.5rem;
   }
 
   .header__logo img {
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
+    height: 100%;
   }
 
   .header__text {
     margin-left: 1rem;
     padding-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .header__right {
@@ -168,14 +172,30 @@
   /* --------------------------------------------- */
   .introduction__text {
     font-size: 1.6rem;
+    margin-top: 2rem;
   }
 
-  /* introduction */
+  /* about */
   /* --------------------------------------------- */
+  .abount__inner {
+    padding-top: 8rem;
+  }
+
   .about__theme {
     font-size: 1.8rem;
+    padding-top: 2rem;
   }
 
+  .about__logo {
+    width: 8rem;
+    height: 8rem;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    line-height: 8rem;
+    position: absolute;
+    top: -4rem;
+  }
+  
   .skill__text {
     font-size: 1.8rem;
     margin-top: 2rem;
@@ -385,6 +405,49 @@
   letter-spacing: 2px;
 }
 
+/* Q&A */
+/* --------------------------------------------- */
+.QA__header {
+  height: 27rem;
+  }
+
+.QA__logo__container {
+  padding-top: 4rem;
+}
+
+.QA__logo {
+  width: 8rem;
+  height: 8rem;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  line-height: 8rem;
+}
+
+.arrow {
+  border-width: 2rem 2rem 0 2rem;
+}
+
+.QA__answer {
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.QA__answer--lg {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.QA__answer--md {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.QA__answer__img {
+  width: 25%;
+  margin-right: 3rem;
+}
+
 }
 
 
@@ -399,6 +462,12 @@ body {
 .about__box--inner {
   max-width: 1300px;
   padding-bottom: 5rem;
+}
+
+.section__text {
+  white-space: nowrap;
+  font-size: 2.8rem;
+  line-height: 2;
 }
 
 /* ヘッダー */
@@ -643,6 +712,30 @@ font-size: 1.8rem;
 
 .member__box__textcontainer {
   font-size: 1.6rem;
+}
+
+/* Q&A */
+/* --------------------------------------------- */
+.QA__answer--lg {
+  font-size: 3rem;
+}
+
+.QA__answer--md {
+  font-size: 1.8rem;
+}
+
+.QA__answer--sm {
+  font-size: 1.6rem;
+}
+
+.QA__answer__container {
+  width: 78rem;
+  margin: 0 auto;
+}
+
+.QA__answer__img {
+  width: 24.5rem;
+  margin-right: 3rem;
 }
 
 }

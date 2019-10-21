@@ -39,7 +39,7 @@ body {
 .section__container {
   position: relative;
   width: 100%;
-  height: 15rem;
+  height: 10rem;
   justify-content: space-between;
 }
 
@@ -55,6 +55,22 @@ body {
   font-weight: 600;
   line-height: 2;
   letter-spacing: 1.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section__text {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 3;
+  letter-spacing: 2px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -105,11 +121,11 @@ body {
   z-index: 10;
   width: 100%;
   background-color: #fff;
+
 }
 
 .header__inner {
   display: flex;
-  font-size: 1rem;
   height: 6rem;
 }
 
@@ -130,6 +146,7 @@ body {
 
 .header__text {
   margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .header__right {
@@ -146,7 +163,7 @@ body {
 
 .form-Sp img {
   padding: 0 2rem 0.3rem 2rem;
-  height: 3rem;
+  height: 2.7rem;
 } 
 
 .form-Sp a {
@@ -332,15 +349,17 @@ body {
 }
 
 .about__logo {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  line-height: 6rem;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
   background: #E3BB60;
   border-radius: 50%;
-  text-align: center;
-  line-height: 8rem;
   color: #fff;
   position: absolute;
-  top: -4rem;
+  top: -3rem;
   left: 50%;
   -webkit-transform: translatex(-50%);
 	-ms-transform: translatex(-50%);
@@ -670,7 +689,7 @@ body {
   position: absolute;
   top: -100px;
   left: 50%;
-  -webkit-transform: translatex(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
@@ -691,4 +710,121 @@ body {
 .member__boxtext {
   text-align: left;
   line-height: 1.7;
+}
+
+/* Q&A */
+/* --------------------------------------------- */
+.QA__header {
+width: 100%;
+height: 21rem;
+background-color: #E3BB60;
+position: relative;
+}
+
+.QA__header__inner {
+  width: 90%;
+  margin:  0 auto;
+}
+
+.QA__section {
+  color: #fff;
+  display: inline-block;
+}
+
+.section--color {
+  border-color: #fff;
+}
+
+.QA__logo__container {
+  padding: 2rem 0 1rem 0;
+  width: 100%;
+}
+
+.QA__logo {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  line-height: 6rem;
+  background: #fff;
+  border-radius: 50%;
+  color: #E3BB60;
+}
+
+.arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 1.5rem 1.5rem 0 1.5rem;
+  border-color: #E3BB60 transparent transparent transparent;
+}
+
+.QA__answer {
+  text-align: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.QA__answer--lg {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.QA__answer--md {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  letter-spacing: 1.5px;
+}
+
+.QA__answer--sm {
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.QA__answer__container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.QA__answer__content {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.QA__answer__img {
+  width: 20rem;
+  margin-right: 1rem;
+  border: 3px solid #E3BB60;
+}
+
+.QA__answer__img img {
+  width: 100%;
+}
+
+.QA__answer__text {
+  width: calc(100% - 21rem);
+  font-family: ;
+  color: #777777;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.QA__answer__comment {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.QA__answer__name {
+  font-size: 1.6rem;
+  text-decoration: underline;
 }
