@@ -444,9 +444,15 @@
 }
 
 .QA__answer__img {
-  width: 25%;
+  max-width: 24rem;
+  max-height: 24rem;
   margin-right: 3rem;
 }
+
+.QA__answer__img img {
+  width: 100%;
+}
+
 /* content */
 /* --------------------------------------------- */
 .content__text--lg {
@@ -841,8 +847,13 @@ font-size: 1.8rem;
 }
 
 .QA__answer__img {
-  width: 24.5rem;
+  max-width: 24.5rem;
+  max-height: 24.5rem;
   margin-right: 3rem;
+}
+
+.QA__answer__img img {
+  widows: 100%;
 }
 
 /* content */
