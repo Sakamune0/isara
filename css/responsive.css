@@ -556,6 +556,25 @@
   width: 100%
 }
 
+/* why */
+/* --------------------------------------------- */
+.why__text__container {
+  padding: 6rem 3rem 6rem 6rem;
+}
+
+.why__theme {
+  text-align: left;
+  font-size: 2.6rem;
+}
+
+.why__cause {
+  font-size: 1.6rem;
+}
+
+.why__conclusion {
+  font-size: 1.8rem;
+}
+
 }
 
 
@@ -887,6 +906,29 @@ font-size: 1.8rem;
 
 .flow__ac__inner--300 {
   font-size: 1.4rem;
+}
+
+/* why */
+/* --------------------------------------------- */
+.why__text__container {
+  padding: 11rem 10rem 12rem 10rem;
+}
+
+.why__theme {
+  text-align: left;
+  font-size: 2.6rem;
+}
+
+.why__text {
+  letter-spacing: 4px;
+}
+
+.why__cause {
+  font-size: 1.8rem;
+}
+
+.why__conclusion {
+  font-size: 2.2rem;
 }
 }
 
