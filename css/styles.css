@@ -119,6 +119,22 @@ body {
 .flow__line {
   display: none;
 }
+
+
+.privilege__box__text--pc {
+  display: none;
+}
+
+.privilege__box__logo--sp {
+  min-width: 6rem;
+  min-height: 6rem;
+  background-color: #fff;
+  color: rgb(231, 180, 71);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 6rem;
+}
+
 /* ヘッダー */
 /* --------------------------------------------- */
 .header {
@@ -1023,7 +1039,6 @@ position: relative;
 /* why */
 /* --------------------------------------------- */
 .why {
-  width: 100%;
   background-image: url(../img/background/why.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1062,3 +1077,78 @@ position: relative;
   font-weight: 600;
   letter-spacing: 3px;
 }
+
+/* privilege */
+/* --------------------------------------------- */
+.privilege {
+  background-color: rgb(231, 180, 71);
+  padding-bottom: 2rem;
+}
+
+.privilege__about {
+  text-align: center;
+  padding: 3rem 0 5rem 0;
+}
+
+.privilege__title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.privilege__text {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.privilege__text--white {
+  color: #fff;
+}
+
+.privilege__content {
+  width: 26rem;
+  line-height: 3rem;
+  padding: 0 3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: rgb(231, 180, 71);
+  text-align: center;
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+	-ms-transform: translatex(-50%);
+	transform: translatex(-50%);
+}
+
+.privilege__box {
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  position: relative;
+}
+
+.privilege__box__flex {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.privilege__box__flex:last-child{
+  margin-bottom: 0;
+}
+
+
+.privilege__box__text--sp {
+  margin-left: 5rem;
+  padding-top: 1.5rem;
+  font-size: 1.4rem;
+  color: #fff;
+
+}
+
+.privilege__box__inner {
+  padding: 5rem 3rem 3rem 8rem;
+}
+

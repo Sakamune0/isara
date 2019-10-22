@@ -575,6 +575,94 @@
   font-size: 1.8rem;
 }
 
+/* privilege */
+/* --------------------------------------------- */
+.privilege {
+  background-color: rgb(231, 180, 71);
+  padding-bottom: 4rem;
+}
+
+.privilege__about {
+  text-align: center;
+  padding: 6rem 0 10rem 0;
+}
+
+.privilege__title {
+  font-size: 2.6rem;
+  margin-bottom: 5rem;
+}
+
+.privilege__text {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.privilege__content {
+  width: 45rem;
+  line-height: 3rem;
+  font-size: 2.6rem;
+}
+
+.privilege__box {
+  width: 90%;
+}
+
+.privilege__box__text--sp {
+  display: none;
+}
+
+.privilege__box__inner {
+  width: 30rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.privilege__box__flex {
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  margin: 3rem 0;
+  width: 25rem;
+  height: 25rem;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.privilege__box__flex:first-child {
+  margin-top: 5rem;
+}
+
+.privilege__box__flex:last-child {
+  margin-bottom: 3rem;
+}
+
+.box__logo--pc {
+  font-size: 2.6rem;
+  color: rgb(231, 180, 71);
+  height: 3rem;
+  line-height: 3rem;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.privilege__box__text--pc {
+  width: 90%;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+
 }
 
 
@@ -930,5 +1018,41 @@ font-size: 1.8rem;
 .why__conclusion {
   font-size: 2.2rem;
 }
+
+/* privilege */
+/* --------------------------------------------- */
+.privilege__title {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.privilege__text {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.privilege__content {
+  width: 60rem;
+  font-size: 3rem;
+  line-height: 1;
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+	-ms-transform: translatex(-50%);
+	transform: translatex(-50%);
+}
+
+.privilege__box {
+  max-width: 1200px;
+}
+
+.privilege__box__inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
 }
 
