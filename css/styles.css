@@ -40,18 +40,11 @@ body {
   position: relative;
   width: 100%;
   height: 10rem;
-  justify-content: space-between;
-}
-
-.section__theme {
-  display: table;
 }
 
 .section__title {
-  width: 100%;
+  display: inline-block;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 2;
@@ -65,10 +58,8 @@ body {
 }
 
 .section__text {
-  width: 100%;
+  display: inline-block;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 3;
@@ -82,13 +73,18 @@ body {
 }
   
 .section__left {
+  display: inline-block;
   width: 3rem;
   height: 3rem;
   border-top: 3px solid rgb(231, 180, 71);
   border-left: 3px solid rgb(231, 180, 71);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
   
 .section__right {
+  display: inline-block;
   width: 3rem;
   height: 3rem;
   border-bottom: 3px solid rgb(231, 180, 71);
@@ -540,11 +536,13 @@ body {
 
 .learnable__icon {
   width: 20%;
+  height: 20%;
   margin: 0 0.3rem 0 0.3rem;
 }
 
 .learnable__icon img {
   width: 100%;
+  height: 100%;
 }
 
 /* merit */
@@ -561,7 +559,7 @@ body {
 }
 
 .merit__section__text {
-  width: 95vw;
+  display: inline-block;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
@@ -736,13 +734,12 @@ position: relative;
 }
 
 .QA__header__inner {
-  width: 90%;
-  margin:  0 auto;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .QA__section {
   color: #fff;
-  display: inline-block;
 }
 
 .section--color {
