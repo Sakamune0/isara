@@ -48,6 +48,7 @@ body {
 }
 
 .section__title {
+  width: 100%;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
@@ -64,6 +65,7 @@ body {
 }
 
 .section__text {
+  width: 100%;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
@@ -539,6 +541,10 @@ body {
 .learnable__icon {
   width: 20%;
   margin: 0 0.3rem 0 0.3rem;
+}
+
+.learnable__icon img {
+  width: 100%;
 }
 
 /* merit */
