@@ -119,6 +119,22 @@ body {
 .flow__line {
   display: none;
 }
+
+
+.privilege__box__text--pc {
+  display: none;
+}
+
+.privilege__box__logo--sp {
+  min-width: 6rem;
+  min-height: 6rem;
+  background-color: #fff;
+  color: rgb(231, 180, 71);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 6rem;
+}
+
 /* ヘッダー */
 /* --------------------------------------------- */
 .header {
@@ -163,20 +179,29 @@ body {
   display: flex;
   flex-direction: column;
   width: 8rem;
+  height: 6rem;
   padding: 1rem;
   background-color: rgb(203 ,113 ,105);
 }
 
 .form-Sp img {
   padding: 0 2rem 0.3rem 2rem;
+  height: 100%;
   height: 2.7rem;
 } 
 
-.form-Sp a {
-  color: aliceblue;
+.form-Sp__text {
+  line-height: 2rem;
   text-align: center;
   font-weight: lighter;
   cursor: pointer;
+}
+
+.form-Sp a {
+  color: aliceblue;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
 }
 
 .form-Sp a:hover {
@@ -1010,3 +1035,120 @@ position: relative;
   letter-spacing: 2px;
   padding-bottom: 2rem;
 }
+
+/* why */
+/* --------------------------------------------- */
+.why {
+  background-image: url(../img/background/why.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.why__text__container {
+  padding: 5rem 3rem 4rem 3rem;
+  color: #fff;
+}
+
+.why__theme {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+}
+
+.why__text {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.why__cause {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.why__conclusion {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+/* privilege */
+/* --------------------------------------------- */
+.privilege {
+  background-color: rgb(231, 180, 71);
+  padding-bottom: 2rem;
+}
+
+.privilege__about {
+  text-align: center;
+  padding: 3rem 0 5rem 0;
+}
+
+.privilege__title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.privilege__text {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.privilege__text--white {
+  color: #fff;
+}
+
+.privilege__content {
+  width: 26rem;
+  line-height: 3rem;
+  padding: 0 3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: rgb(231, 180, 71);
+  text-align: center;
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+	-ms-transform: translatex(-50%);
+	transform: translatex(-50%);
+}
+
+.privilege__box {
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  position: relative;
+}
+
+.privilege__box__flex {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.privilege__box__flex:last-child{
+  margin-bottom: 0;
+}
+
+
+.privilege__box__text--sp {
+  margin-left: 5rem;
+  padding-top: 1.5rem;
+  font-size: 1.4rem;
+  color: #fff;
+
+}
+
+.privilege__box__inner {
+  padding: 5rem 3rem 3rem 8rem;
+}
+
