@@ -1096,7 +1096,7 @@ position: relative;
 }
 
 .privilege__text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 1.5px;
   line-height: 1.5;
   margin-bottom: 2rem;
@@ -1107,7 +1107,7 @@ position: relative;
 }
 
 .privilege__content {
-  width: 26rem;
+  width: 30rem;
   line-height: 3rem;
   padding: 0 3rem;
   font-size: 2rem;
