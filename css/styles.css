@@ -812,12 +812,14 @@ position: relative;
 
 .QA__answer__img {
   width: 20rem;
+  height: 20rem;
   margin-right: 1rem;
   border: 3px solid #E3BB60;
 }
 
 .QA__answer__img img {
   width: 100%;
+  height: 100%;
 }
 
 .QA__answer__text {
